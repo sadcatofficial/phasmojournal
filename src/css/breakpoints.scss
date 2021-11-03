@@ -1,0 +1,41 @@
+@media (max-width: 1199px){ }
+
+@media (max-width: 991px){    header{
+    h1{
+        font-size: 28px;}
+    
+    
+}
+
+.evidence-box{
+    flex-direction: column;
+    width: 100px;
+}
+
+.ghosts-box{
+    flex-direction: column;
+    width: fit-content;
+    font-size: 10px;
+    .ghosts-list {
+        width: 300px;
+    }
+    .ghost-evidence{
+        flex-direction: row;
+        height: 70px;
+        width: 200px;
+    }
+}
+
+.explicit-evidences-box{
+    width: 300px;
+    flex-direction: column;
+    .explicit-evidence {
+        margin: 5px 5px 5px 5px;
+    }
+} }
+
+@media (max-width: 767px){ }
+
+@media (max-width: 575px){
+
+ }

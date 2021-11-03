@@ -1,0 +1,66 @@
+.evidence-box {
+  background-color: rgba(61, 61, 61, 0.411);
+  color: white;
+  width: 700px;
+  margin: auto;
+  border: white 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-size: 14px;
+  .evidence {
+    width: 100px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .evidence-text {
+      /**
+             * Для эксплорера
+             */
+      -ms-user-select: none;
+
+      /**
+              * Для мозилы
+              */
+      -moz-user-select: none;
+
+      /**
+              * Для конкверора
+              */
+      -khtml-user-select: none;
+
+      /**
+              * Для Сафари и Хрома
+              */
+      -webkit-user-select: none;
+    }
+    .evidence-img {
+    }
+  }
+  .confirmed {
+    background-color: #003e00;
+  }
+  .declined {
+    background-color: #770303;
+  }
+  .blocked {
+    background-color: darkred;
+  }
+
+
+  .evidence.blocked:hover {
+    background-color: darkred;
+  }
+  .evidence.confirmed:hover {
+    background-color: #003e00;
+  }
+  .evidence.declined:hover {
+    background-color: #770303;
+  }
+
+  .evidence:hover {
+    background-color: rgba(170, 170, 170, 0.5);
+  }
+}
