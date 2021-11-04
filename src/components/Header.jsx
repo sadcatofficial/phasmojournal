@@ -3,7 +3,7 @@ import '../css/Header.scss'
 const Header = () => {
   return (
     <header>
-      <h1> Phasmophobia journal</h1>
+      <h1> PHASMOPHOBIA JOURNAL</h1>
     </header>
   );
 };

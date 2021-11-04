@@ -125,7 +125,7 @@ const ExplicitEvidences = () => {
     },
     {
       id: 22,
-      name: "Slow blinkig",
+      name: "Slow blinking",
       ghosts: [11],
       description:
         "During a hunt, a Phantom will flash visible every 1 to 2 seconds",
